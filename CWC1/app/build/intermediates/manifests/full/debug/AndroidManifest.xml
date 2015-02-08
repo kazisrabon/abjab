@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bs_36.cwc1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <!-- Allow to connect with internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name="com.example.bs_36.cwc1.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bs_36.cwc1.DashboardActivity"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Login Activity -->
+        <activity
+            android:name="com.example.bs_36.cwc1.LoginActivity"
+            android:label="Login Account"
+            android:uiOptions="splitActionBarWhenNarrow" />
+
+        <!-- Register Activity -->
+        <!-- Register Activity -->
+        <activity
+            android:name="com.example.bs_36.cwc1.RegisterActivity"
+            android:label="Register New Account"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name="com.example.bs_36.cwc1.PasswordReset"
+            android:label="Reset Password"
+            android:parentActivityName="com.example.bs_36.cwc1.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bs_36.cwc1.LoginActivity" />
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.ShareMenu"
+            android:label="@string/title_activity_share_menu"
+            android:parentActivityName="com.example.bs_36.cwc1.DashboardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bs_36.cwc1.DashboardActivity" />
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.CarActivity"
+            android:label="@string/title_activity_car" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.MotorCycleActivity"
+            android:label="@string/title_activity_motor_cycle" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.PhoneActivity"
+            android:label="@string/title_activity_phone" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.PCActivity"
+            android:label="@string/title_activity_pc" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.FlatsForRentActivity"
+            android:label="@string/title_activity_flats_for_rent" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.FlatForSaleActivity"
+            android:label="@string/title_activity_flat_for_sale" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.ShadeActivity"
+            android:label="@string/title_activity_shade" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.BagActivity"
+            android:label="@string/title_activity_bag" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.ShoeActivity"
+            android:label="@string/title_activity_shoe" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.CDActivity"
+            android:label="@string/title_activity_cd" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.BookActivity"
+            android:label="@string/title_activity_book" >
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.util.LocationTracking"
+            android:label="@string/title_activity_track_location"
+            android:parentActivityName="com.example.bs_36.cwc1.DashboardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bs_36.cwc1.DashboardActivity" />
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.ListCatagoryActivity"
+            android:label="@string/title_activity_list_catagory"
+            android:parentActivityName="com.example.bs_36.cwc1.util.LocationTracking" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bs_36.cwc1.util.LocationTracking" />
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.ListSubCatagoryActivity"
+            android:label="@string/title_activity_list_subcatagory"
+            android:parentActivityName="com.example.bs_36.cwc1.ListCatagoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bs_36.cwc1.ListCatagoryActivity" />
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.AdvertisementActivity"
+            android:label="@string/title_activity_advertisement"
+            android:parentActivityName="com.example.bs_36.cwc1.DashboardActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bs_36.cwc1.DashboardActivity" />
+        </activity>
+        <activity
+            android:name="com.example.bs_36.cwc1.Single_item_view_activity"
+            android:label="@string/title_activity_single_item_view_activity" >
+        </activity>
+
+        <receiver
+            android:name="com.example.bs_36.cwc1.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" >
+                    <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.bs_36.cwc1.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+    </application>
+
+</manifest>

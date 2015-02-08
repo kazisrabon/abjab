@@ -1,0 +1,11 @@
+E:\CWC-HW-master\CWC1\app\build\intermediates\classes\debug
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6385be108db98f8aa042bbbd20820c49d272eb94.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\socialauth-android-3.2-38e18abbbaacac7de788138a6ccc6c27db25c963.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\volley-b060c65337db1963622fbdc656629c061e3e7b18.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\gson-2.2.4-91a3e4618f613c6a9968296848012e7178473418.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-ae34c789def61c2afe80f46b0031b100ba7ffb64.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\socialauth-4.4-b2f7cd9cd42e35aec25c183354dc549004e85ed8.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\fest-android-1.0.0-sources-83568c2cb068dfe79fdee23a797444daa1e94813.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\classes-e710b59591f7027f07a59a3ed022ed7f5bdf4969.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\classes-0bb79df60a8c1ccf9fd1792b490b2cd4b9dc14c9.jar
+E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\robolectric-2.4-ef1d908ff2a24915a995fccb177fbf340a9b198d.jar
