@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\libs\robolectric-2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b3e395f0e422de3147d42918b7a5b08476f2377">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\robolectric-2.4-ef1d908ff2a24915a995fccb177fbf340a9b198d.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\libs\fest-android-1.0.0-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a02f6d73f9b101f999a44ff20b14ee342d950a18">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\fest-android-1.0.0-sources-83568c2cb068dfe79fdee23a797444daa1e94813.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-ae34c789def61c2afe80f46b0031b100ba7ffb64.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\libs\socialauth-android-3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="32bae3266a7c49bc7019ef3a868d080cb141f8d3">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\socialauth-android-3.2-38e18abbbaacac7de788138a6ccc6c27db25c963.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\volley-b060c65337db1963622fbdc656629c061e3e7b18.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\libs\socialauth-4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a867292683d6086af72c7cac181892e118058989">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\socialauth-4.4-b2f7cd9cd42e35aec25c183354dc549004e85ed8.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\classes-0bb79df60a8c1ccf9fd1792b490b2cd4b9dc14c9.jar" />
+    </item>
+    <item
+        jar="E:\Study\adt-bundle-windows-x86-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6385be108db98f8aa042bbbd20820c49d272eb94.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\classes-e710b59591f7027f07a59a3ed022ed7f5bdf4969.jar" />
+    </item>
+    <item
+        jar="E:\CWC-HW-master\CWC1\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="E:\CWC-HW-master\CWC1\app\build\intermediates\pre-dexed\debug\gson-2.2.4-91a3e4618f613c6a9968296848012e7178473418.jar" />
+    </item>
+
+</items>

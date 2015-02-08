@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Klassify</string>
+    <string name="hello">Hello Code Warriors!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_share_menu">Share</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_section1">Profile</string>
+    <string name="title_section2">Change Profile</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="pages">
+        <item>Profile</item>
+        <item>Change Profile</item>
+        <item>Products</item>
+        <item>Favorite</item>
+    </string-array>
+
+    <string name="title_activity_car">CarActivity</string>
+    <string name="title_activity_motor_cycle">MotorCycleActivity</string>
+    <string name="title_activity_phone">PhoneActivity</string>
+    <string name="title_activity_pc">PCActivity</string>
+    <string name="title_activity_flats_for_rent">FlatsForRentActivity</string>
+    <string name="title_activity_flat_for_sale">FlatForSaleActivity</string>
+    <string name="title_activity_shade">ShadeActivity</string>
+    <string name="title_activity_bag">BagActivity</string>
+    <string name="title_activity_shoe">ShoeActivity</string>
+    <string name="title_activity_cd">CDActivity</string>
+    <string name="title_activity_book">BookActivity</string>
+
+    <string-array name="district">
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Jamalpur</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Netrakona</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Tangail</item>
+    </string-array>
+
+    <string name="title_activity_advertisement">AdvertisementActivity</string>
+    <string name="title_activity_track_location">Track Location</string>
+    <string name="what_you_are_selling">What you are selling...</string>
+    <string name="description">Description...</string>
+    <string name="unit_prompt">Choose unit</string>
+
+    <string-array name="unit_arrays">
+        <item>BDT</item>
+        <item>Doller</item>
+        <item>Rupee</item>
+        <item>Euro</item>
+    </string-array>
+    <string-array name="catagory_arrays">
+        <item>Mobile</item>
+        <item>Music</item>
+        <item>Computer</item>
+        <item>Electronics</item>
+    </string-array>
+
+    <string name="add_location">Add Location</string>
+    <string name="set">Set</string>
+    <string name="mobile_no">Mobile</string>
+    <string name="price">Price</string>
+    <string name="phone_no">Phone no</string>
+    <string name="title_activity_list_catagory">Category List</string>
+    <string name="title_activity_list_subcatagory">Subcategory List</string>
+    <string name="title_activity_image_upload">ImageUploadActivity</string>
+    <string name="title_activity_single_item_view_activity">Single_item_view_activity</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+</resources>
